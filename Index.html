@@ -6,92 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link  rel="Stylesheet" href="Estilos/Estilos.css">
-
-
+    <script src="JavaS/Calculadora.js"></script>
 </head>
 <body>
-    <div id="calculadora">
-        <br>
-        <div id="display">
-            <a id="resultado">0</a>
-        </div>
-        <br>
-        <div  id="botones">
-            <div id="rojos">
-            <br>
-            
-            <br>
-            </div>
-            <div id="negros">
-            <br>
-            
-            <br>
-            <br>
-            <button id="4">4</button>
-            <button id="5">5</button>
-            <button id="6">6</button>
-            <button id="Division">*</button>
-            <button id="Porcentaje">%</button>
-            <br>
-            <br>
-            <button onclick="add('1')">1</button>
-            <button onclick="add('2')">2</button>
-            <button onclick="add('3')">3</button>
-            <button id="Resta">-</button>
-            <button id="Unosobrex">1/x</button>
-            <br>
-            <br>
-            <button onclick="add('1')">0</button>
-            <button id="Masmenos">+/-</button>
-            <button id="Decimal">.</button>
-            <button id="Suma">+</button>
-            <button id="Iguak">=</button>
-            <br>
-        </div>
-            <br>
-        </div>
-    </div>
-    <tablen class="calculadora">
+   <br><br>
+    <table class="calculadora">
         <tr>
-            <td colspan="5"><span id="resultado"></span></td>
+            <td colspan="5"><span id="resultado">resultado</span></td>
         </tr>
         <tr>
             <td ><button id="Retroceder">Retr</button></td>
-            <td colspan="2"><button id="CE">CE</button></td>
-            <td colspan="2"> <button id="C">C</button></td>
+            <td class="largos" colspan="2" ><button id="CE">CE</button></td>
+            <td class="largos" colspan="2"> <button id="C">C</button></td>
 
         </tr>
         <tr>
-            <td><button id="7">7</button></td>
-            <td><button id="8">8</button></td>
-            <td><button id="8">9</button></td>
+            <td><button id="siete">7</button></td>
+            <td><button id="ocho">8</button></td>
+            <td><button id="nueve">9</button></td>
             <td><button id="Division">/</button></td>
             <td><button id="Raiz">Raiz</button></td> 
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><button id="cuatro">4</button></td>
+            <td> <button id="cinco">5</button></td>
+            <td><button id="seis">6</button></td>
+            <td><button id="Division">*</button></td>
+            <td><button id="Porcentaje">%</button></td>
+      
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><button id="uno">1</button></td>
+            <td><button id="dos">2</button></td>
+            <td><button id="tres">3</button></td>
+            <td><button id="Resta">-</button></td>
+            <td><button id="Unosobrex">1/x</button></td>
+                     
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><button id="ceros">0</button></td>
+            <td><button id="Masmenos">+/-</button></td>
+            <td><button id="Decimal">.</button></td>
+            <td> <button id="Suma">+</button></td>
+            <td><button id="Iguak">=</button></td>
+           
         </tr>
         
     </table >
     
-    <script src="JavaS/Calculadora.js"></script>
+   
 </body>
 </html>

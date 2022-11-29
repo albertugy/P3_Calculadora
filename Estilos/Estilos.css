@@ -1,23 +1,45 @@
 body{
-    background-color: purple;
+    background-color: wheat;
 }
-#calculadora{
-border: 3px solid blue;
-background-color: yellow;
-text-align: center;
-margin-right: 30%;
-margin-left: 30%;
-height: 400px;
+.calculadora{
+display: block;
+margin: 0 auto;
+padding: 20px;
+background-color: orangered;
+width: 365px;
+height: 520px;
+border-radius: 25px;
 }
 
-#display{
-    border: 2px solid black;
+.calculadora td button{
+    display: block;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+}
+
+#CE{
+    display: block;
+    width: 125px;
+    height: 60px;
+    font-size: 25px;
+}
+#C{
+    display: block;
+    width: 125px;
+    height: 60px;
+    font-size: 25px;
+}
+
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    width: 320px;
+    height: 100px;
+    line-height: 100px;
     background-color: white;
+    border-radius: 25px;
 
 }
- #botones{
-    border:2px solid red;
- }
- #rojos{
-    border: 1px solid green ;
- }
